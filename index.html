@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bemo</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+
+  <!-- MAIN CONTENT STARTS HERE -->
+      <div id="main-content" style="height:100%;width:100%">
+
+
+
+      <div style="display: none">
+        <input id="origin-input" class="controls" type="text" placeholder="Enter an origin location"/>
+        <input id="destination-input" class="controls" type="text" placeholder="Enter a destination location"/>
+    </div>
+      <!-- ENDS HERE MAIN CONTENT -->
+      <!-- MAP DISPLAY HERE -->
+    <div id="map"></div>
+      <!-- MAPS ENDS HERE -->
+
+
+  </div>
+
+    <script src="map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDj9EmU6nuP5EQ-VwEnaYdxOPE-O2AyFDc&libraries=places&callback=initMap"
+        async defer></script>
+
+    </body>
+</html>
